@@ -1,0 +1,41 @@
+﻿生成启动时间为 2020/9/4 15:52:26。
+     1>项目“F:\WEI\University\Study\Grade Two\Autumn Term\Data Structures\Homework\Homework3\Homework3\Homework3.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Homework3.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>f:\wei\university\study\grade two\autumn term\data structures\homework\homework3\homework3\main.cpp(9): warning C4101: “n”: 未引用的局部变量
+     1>f:\wei\university\study\grade two\autumn term\data structures\homework\homework3\homework3\btree.h(30): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+                 f:\wei\university\study\grade two\autumn term\data structures\homework\homework3\homework3\btree.h(27): 编译类 模板 成员函数“CBTree<T>::CBTree(double)”时
+                 with
+                 [
+                     T=int
+                 ]
+                 f:\wei\university\study\grade two\autumn term\data structures\homework\homework3\homework3\main.cpp(19): 参见对正在编译的类 模板 实例化“CBTree<T>”的引用
+                 with
+                 [
+                     T=int
+                 ]
+     1>f:\wei\university\study\grade two\autumn term\data structures\homework\homework3\homework3\btree.h(31): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Homework3.exe.embed.manifest.res" Debug\Homework3_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\WEI\University\Study\Grade Two\Autumn Term\Data Structures\Homework\Homework3\Debug\Homework3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Homework3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\WEI\University\Study\Grade Two\Autumn Term\Data Structures\Homework\Homework3\Debug\Homework3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\WEI\University\Study\Grade Two\Autumn Term\Data Structures\Homework\Homework3\Debug\Homework3.lib" /MACHINE:X86 Debug\Homework3.exe.embed.manifest.res
+         Debug\main.obj
+       Manifest:
+         正在删除文件“Debug\Homework3.exe.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Homework3.exe.embed.manifest" /manifest Debug\Homework3.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Homework3.exe.embed.manifest.res" Debug\Homework3_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\WEI\University\Study\Grade Two\Autumn Term\Data Structures\Homework\Homework3\Debug\Homework3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Homework3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\WEI\University\Study\Grade Two\Autumn Term\Data Structures\Homework\Homework3\Debug\Homework3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\WEI\University\Study\Grade Two\Autumn Term\Data Structures\Homework\Homework3\Debug\Homework3.lib" /MACHINE:X86 Debug\Homework3.exe.embed.manifest.res
+         Debug\main.obj
+         Homework3.vcxproj -> F:\WEI\University\Study\Grade Two\Autumn Term\Data Structures\Homework\Homework3\Debug\Homework3.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Homework3.unsuccessfulbuild”。
+         正在对“Debug\Homework3.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\WEI\University\Study\Grade Two\Autumn Term\Data Structures\Homework\Homework3\Homework3\Homework3.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.60
