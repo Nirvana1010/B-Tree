@@ -1,63 +1,45 @@
 # B-Tree
 
-此程序编译平台为Visual Studio 2010.
+**Platform:** Visual Studio 2010.
 
-南开大学数据结构作业，B树。
+**Requirements:**
 
-习题三
+a) Refer to the sample code in the book to indicate the keyword for each record as an integer. For simplicity, each record can contain only one keyword (i.e., the other fields can be undefined).
 
-习题内容：
+b) Starting from the empty tree, enter each keyword in turn to build the corresponding B-tree.
 
-B树的表示及基本操作的实现。
+c) And implement the insertion and deletion of keywords in the B-tree.
 
-1．掌握B树的存贮结构。
+d) Display the tree shape on the screen at the same time. The tree shape is displayed when all keywords are inserted, and the current tree shape is also displayed after each insertion or deletion operation is completed.
 
-2．实现B树中关键字值的插入及删除操作。
+e) Assume that there are no duplicate keywords in the B-tree.
 
-3．练习屏幕图形化的显示。
+f) When the program is running, the input format must be given on the screen when data is to be entered. When there is output displayed, the necessary explanation of the output is also required.
 
-要求：
+**Input data format:**
+  The input format when creating a B-tree is to read the following data from the keyboard.
 
-a)	参考书中的示例代码，以整数表示每个记录的关键字。为简单起见，每个记录可以只包含一个关键字（即其他的字段可以不定义）。
+10 3
 
-b)	从空树开始，依次输入各关键字，建立相应的B树。
+20, 25, 4, 50...
 
-c)	并实现B树中关键字的插入及删除。
+The two numbers in the first line indicate the number of keywords and the order of the B-tree to be built, separated by spaces or special symbols of your own definition (preferably with a message line). In this example, there are 10 keywords, and the B-tree is of order 3.
 
-d)	同时将树型显示在屏幕上。全部关键字插入完毕时显示树型，之后每完成一次插入或删除操作后也显示当前的树型。
-
-e)	假设B树中不存在重复的关键字。
-
-f)	程序运行时，当要输入数据时必须在屏幕上给出输入的格式要求（中英文均可）。当有输出显示时，也需要将输出的内容做必要的解释。
-
-输入数据格式：
-  建立B树时的输入格式，从键盘读入下列数据：
-
-10   3
-
-20, 25, 4, 50…
-
-其中，第一行中的两个数字分别表示关键字的个数及要建立的B树的阶数，以空格或是你自己定义的特殊符号分隔（最好有信息提示行）。本例中，有10个关键字，建立3阶B树。
-
-第二行是所有的关键字，以逗号分隔，如一行放不下，可接续在下一行中。当读够关键字后，忽略其后输入的整数。
-  插入结点或是删除结点时的输入格式，从键盘读入下列数据：
+The second line contains all the keywords, separated by commas, and can be followed by the next line if it does not fit in one line. When enough keywords are read, the subsequent integers are ignored.
+  To insert or delete a node, read the following data from the keyboard.
 
 I 76
 
 D 50
 
-第一行和第二行分别代表插入结点及删除结点的示例。可以重复操作，即连续插入结点或是连续删除结点。也可以使用下面的格式：
+The first and second lines represent examples of node insertion and deletion, respectively. The operation can be repeated, i.e. inserting nodes consecutively or deleting nodes consecutively. The following format can also be used.
 
 MI 76, 23, 51#
 
 MD 50, 4, 14#
 
-这两行表示插入或删除多个关键字，以逗号分隔，以#号结束。当出现重复关键字时，给出提示信息，表示“有重复的关键字”并忽略重复的输入；当删除不存在的关键字时，也给出提示信息，表示“未找到相应的关键字”。
+These two lines indicate the insertion or deletion of multiple keywords, separated by commas and terminated by a #. When a duplicate keyword appears, a message is given to indicate "duplicate keyword" and the duplicate input is ignored; when a non-existent keyword is deleted, a message is also given to indicate "corresponding keyword not found".
 
-输出数据格式：
+**Output data format:**
 
-以自己定义的形式输出树型。
-
-推荐大家使用图形化的显示方法。请大家自行参考相关的API接口。
-
-
+Output tree in your own defined form.
