@@ -1,6 +1,8 @@
 # B-Tree
 
-**Platform:** Visual Studio 2010.
+**Platform:** 
+
+Visual Studio 2010.
 
 **Requirements:**
 
